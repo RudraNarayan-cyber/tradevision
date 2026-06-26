@@ -1,0 +1,8 @@
+# infrastructure/docker-compose.yml
+services:
+  postgres:     # User, Portfolio, Payment data
+  mongodb:      # Market data, News
+  redis:        # Caching
+  kafka:        # Async messaging
+  zookeeper:    # Kafka dependency
+  zipkin:       # Distributed tracing
